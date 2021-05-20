@@ -1,0 +1,16 @@
+/* Универсальный селектор */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* селектор тега */
+span {
+}
+
+/* классовый селектор */
+.conteiner {
+  width: 1200px;
+  margin: 0 auto;
+}
