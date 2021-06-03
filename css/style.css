@@ -1,16 +1,129 @@
+/* variables */
+:root {
+  --brendColor--: #2196f3;
+  --titleColor--: #212121;
+  --textColor--: #757575;
+  --sectionColor--: #f5f4fa;
+  --white--: #ffffff;
+  --footerColor--: #2f303a;
+}
+
 /* Универсальный селектор */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
-/* селектор тега */
-span {
+body {
+  font-family: "Roboto";
+  color: var(--textColor--);
+  list-style: none;
+  text-decoration: none;
 }
 
-/* классовый селектор */
+/* header */
+
 .conteiner {
   width: 1200px;
   margin: 0 auto;
 }
+
+.span {
+  font-family: Raleway;
+  color: #2196f3;
+}
+
+.header {
+  text-decoration: none;
+}
+
+.contact {
+}
+
+.hero {
+  background-color: var(--footerColor--);
+  color: var(--white--);
+}
+
+.stilyButtom {
+  background-color: var(--brendColor--);
+  color: var(--white--);
+  border-radius: 4px;
+  padding: 10px 32px;
+  margin: 30px;
+}
+/* section2 */
+
+.h3-features {
+  height: 16px;
+  color: var(--titleColor--);
+}
+
+.h2-title {
+  height: 42px;
+  color: var(--titleColor--);
+}
+.h3-team {
+  height: 19px;
+  color: var(--titleColor--);
+  font-weight: 500;
+}
+
+.navList a:hover,
+.navList a:focus {
+  color: var(--brendColor--);
+}
+
+.activPage,
+.link a:focus {
+  color: var(--brendColor--);
+}
+
+.link a:hover {
+  color: var(--titleColor--);
+}
+
+.portfolio-buttom {
+  background-color: var(--sectionColor--);
+  border-radius: 4px;
+  color: var(--titleColor--);
+}
+
+.stilyButtom:hover,
+.portfolio-buttom button:hover,
+.portfolio-buttom button:focus {
+  background-color: var(--brendColor--);
+  color: var(--white--);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.activ-prodject {
+  width: 370px;
+  height: 404px;
+}
+
+.activ-prodject li:hover {
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+/* header */
+
+/* main */
+.logo-to-do {
+}
+
+/* main */
+
+/* footer */
+.footer {
+  background-color: var(--footerColor--);
+  color: var(--white--);
+}
+.stily-studio {
+  color: var(--white--);
+  text-decoration: none;
+}
+
+/* footer */
